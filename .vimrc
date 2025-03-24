@@ -16,10 +16,4 @@ set wrap
 set noswapfile
 set nobackup
 
-call plug#begin()
-Plug 'mbbill/undotree'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-call plug#end()
-
 syntax on
