@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+
+[user]
+	name = Daniel Oliveira
+	email = d4niells@duck.com
+
+[core]
+    editor = vim
