@@ -1,19 +1,23 @@
-set guicursor=
-set nonu
-set relativenumber
-
-set noerrorbells
+syntax on
+set termguicolors
+set background=dark
+set number relativenumber
+set incsearch
+set hlsearch
 
 filetype plugin indent on
-set tabstop=2
-set shiftwidth=2
 set expandtab
-autocmd FileType * setlocal tabstop=2 shiftwidth=2 expandtab
-
+set tabstop=4
+set shiftwidth=4
 set smartindent
-set wrap
 
-set noswapfile
+set viminfo="NONE"
 set nobackup
+set noswapfile
+set encoding=utf-8
+set fileencodings=utf8
 
-syntax on
+set belloff=all
+set backspace=indent,eol,start
+set wrap
+set so=30
