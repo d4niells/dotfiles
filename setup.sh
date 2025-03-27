@@ -9,6 +9,7 @@ DOTFILES=(
   .vimrc
   .gitconfig
   .config/i3
+  .config/i3status
 )
 
 create_symlink() {
