@@ -8,7 +8,7 @@ To set up these dotfiles on your system, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/d4niells/dotfiles.git ~/dotfiles
+    git clone git@github.com:d4niells/dotfiles.git ~/dotfiles
     ```
 
 2. **Navigate to the dotfiles directory**:
