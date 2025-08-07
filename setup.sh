@@ -5,6 +5,7 @@ DOTFILES_DIR=~/dotfiles
 DOTFILES=(
   .xinitrc
   .zshrc
+  .zprofile
   .bashrc
   .vimrc
   .gitconfig
